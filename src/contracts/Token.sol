@@ -6,6 +6,10 @@ contract Token {
     uint256 public totalSupply = 1000000000000000000000000; // 1 million tokens
     uint8   public decimals = 18;
 
+    // Wei
+    // 1000000000000000000
+    // 1000000000000000000000000 1 million tokens
+
     event Transfer(
         address indexed _from,
         address indexed _to,
